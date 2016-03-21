@@ -1,0 +1,21 @@
+{
+  "name": "loc8r",
+  "scripts": {
+  },
+  "env": {
+    "MONGOLAB_URI": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/nodejs"
+    }
+  ]
+}
